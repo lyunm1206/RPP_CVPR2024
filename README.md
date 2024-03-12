@@ -26,7 +26,8 @@ A single SIREN experiment can be implemented with
 
 ```
 $ cd SIREN
-$ python siren_DT.py --experiment_name= --lr= --sidelength= --num_workers= --project= --max_steps= --directory= --batch_size= --gpu_num= --type=
+$ python siren_DT.py --experiment_name= --lr= --sidelength= --num_workers= --project= \
+--max_steps= --directory= --batch_size= --gpu_num= --type=
 ```
 <br>
 Each flag in the commandline means
