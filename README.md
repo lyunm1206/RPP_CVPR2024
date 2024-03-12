@@ -25,5 +25,6 @@ We used Kodak, DIV2K, CLIC for our main experiments. (Section 3.1. in our paper 
 A single SIREN experiment can be implemented with
 
 ```
-python siren_DT.py --experiment_name=$i --lr=$lr --sidelength=#512 --num_workers=16 --project=#project --max_steps=$max_steps --directory=#directory_for_images --batch_size=#18 --gpu_num=#0 --type=#origin
+python siren_DT.py --experiment_name=$i --lr=$lr --sidelength=#512 --num_workers=16 --project=#project
+--max_steps=$max_steps --directory=#directory_for_images --batch_size=#18 --gpu_num=#0 --type=#origin
 ```
