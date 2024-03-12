@@ -30,8 +30,14 @@ $ python siren_DT.py --experiment_name= --lr= --sidelength= --num_workers= --pro
 ```
 <br>
 Each commandline flag means
-* experiment_name
+
+* experiment_name `ex) 1`
     * Indicates the number of the iamge you want to run the experiment on.
-* lr
-    * Learning rate with `2^lr`.
-    * Range `{`2^-8,...,`2^-16`}` in our manuscript
+* lr `ex) -10`
+    * Learning rate with 2<sup>lr</sup>.
+    * Range {2<sup>-8</sup>,...,2<sup>-16</sup>} used in our manuscript.
+* sidelength `ex) 512`
+    * Sidelength of the image.
+    * All images used in the experiments were uniformly sized at 512*512.
+* num_workers `ex) 16`
+    * Use 16 in our experiments.
