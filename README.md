@@ -30,7 +30,7 @@ $ python siren_DT.py --experiment_name= --lr= --sidelength= --num_workers= --pro
 --max_steps= --directory= --batch_size= --gpu_num= --type=
 ```
 <br>
-Each flag in the commandline means
+Each flag in the commandline means<br>
 
 * experiment_name `ex) 1`
     * Indicates the number of the iamge you want to run the experiment on.
