@@ -14,13 +14,13 @@ This is the official Github page for the paper "In Search of a Data Transformati
 
 ## SIREN experiments
 
-Our experiments on SIREN are based on the official code for the paper [SIREN](https://github.com/vsitzmann/siren) code.<br>
+Our experiments on SIREN are based on the official code for the paper ["Implicit Neural Representations with Periodic Activation Functions"](https://github.com/vsitzmann/siren).<br>
 
 This repository does not contain any image dataset used in the manuscript.<br>
 We used Kodak, DIV2K, CLIC for our main experiments. (Section 3.1. in our paper for details)
 <br>
 
-### Single Run
+### Setup
 
 A single SIREN experiment can be implemented with
 
@@ -30,7 +30,16 @@ $ python siren_DT.py --experiment_name= --lr= --sidelength= --num_workers= --pro
 --max_steps= --directory= --batch_size= --gpu_num= --type=
 ```
 <br>
-Each flag in the commandline means<br>
+
+Whole experiments for the Kodak dataset can be implemented with
+
+```
+$ cd SIREN
+$ sh run_siren.sh
+```
+<br>
+
+Each flag in the commandline means <br>
 
 * experiment_name `ex) 1`
     * Indicates the number of the iamge you want to run the experiment on.
