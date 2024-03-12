@@ -16,12 +16,14 @@ This is the official Github page for the paper "In Search of a Data Transformati
 
 Our experiments on SIREN are based on the official [SIREN](https://github.com/vsitzmann/siren) code.<br>
 
-This repository does not contain any image dataset used in the manuscript. We used Kodak, DIV2K, CLIC for our main experiments. (Section 3.1. in our paper for details)
+This repository does not contain any image dataset used in the manuscript.<br>
+We used Kodak, DIV2K, CLIC for our main experiments. (Section 3.1. in our paper for details)
 <br>
-A single SIREN experiment can be implemented with
 
 ### Single Run
 
-'''
+A single SIREN experiment can be implemented with
+
+```
 python siren_DT.py --experiment_name=$i --lr=$lr --sidelength=#512 --num_workers=16 --project=#project --max_steps=$max_steps --directory=#directory_for_images --batch_size=#18 --gpu_num=#0 --type=#origin
-'''
+```
