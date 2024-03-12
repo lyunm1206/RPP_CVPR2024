@@ -26,13 +26,14 @@ A single SIREN experiment can be implemented with
 
 ```
 $ cd SIREN
-$ python siren_DT.py --experiment_name=#image_number --lr=#learning_rate --sidelength=#sidelength --num_workers=16 --project=#project --max_steps=$max_steps --directory=#directory_for_images --batch_size=#18
---gpu_num=#0 --type=#origin
+$ python siren_DT.py --experiment_name=#image_number --lr=#learning_rate
+--sidelength=#sidelength --num_workers=16 --project=#project --max_steps=$max_steps
+--directory=#directory_for_images --batch_size=#18 --gpu_num=#0 --type=#origin
 ```
 
 Each commandline flag means<br>
 * experiment_name
     * Indicates the number of the iamge you want to run the experiment on.
 * lr
-    * Learning rate with 2^{lr}.
+    * Learning rate with 2^lr.
     * Range `{2^{-8},...,2^{-16}}` in our manuscript/
