@@ -4,7 +4,7 @@
 Junwon Seo\*, Sangyoon Lee\*, Kwang In Kim, Jaeho Lee<br>
 Pohang University of Science and Technology (POSTECH)
 
-![pipeline](./assets/pipeline1.pdf)
+![pipeline](./assets/pipeline1.png)
 
 <br>
 
