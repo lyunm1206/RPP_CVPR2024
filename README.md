@@ -39,7 +39,7 @@ $ sh run_siren.sh
 ```
 <br>
 
-Each flag in the commandline means <br>
+Description for the flags in the command line. <br><br>
 
 * experiment_name `ex) 1`
     * Indicates the number of the iamge you want to run the experiment on.
@@ -64,3 +64,11 @@ Each flag in the commandline means <br>
 * type `ex) origin`
     * Type of data transformation for the experiment.
     * You can use other data transformations in our python code.
+
+<br>
+
+### Loss Landscape
+
+All loss landscapes in our paper can be shown in the [Demo](https://huggingface.co/spaces/lyunm1206/Interactive_Loss_Landscapes) with 3D interactive versions.<br>
+<br>
+![pipeline](./assets/demo.png)
