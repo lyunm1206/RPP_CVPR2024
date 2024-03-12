@@ -14,7 +14,7 @@ This is the official Github page for the paper "In Search of a Data Transformati
 
 ## SIREN experiments
 
-Our experiments on SIREN are based on the official [SIREN](https://github.com/vsitzmann/siren) code.<br>
+Our experiments on SIREN are based on the official code for the paper [SIREN](https://github.com/vsitzmann/siren) code.<br>
 
 This repository does not contain any image dataset used in the manuscript.<br>
 We used Kodak, DIV2K, CLIC for our main experiments. (Section 3.1. in our paper for details)
@@ -42,3 +42,16 @@ Each flag in the commandline means
     * All images used in the experiments were uniformly sized at 512*512.
 * num_workers `ex) 16`
     * Use 16 in our experiments.
+* project `ex) SIREN`
+    * Name of your wandb project.
+    * Learning curves can be easily found with wandb.
+* max_steps `ex) 10000`
+* directory `ex) kodak_ori`
+    * Name of your directory for the image dataset.
+    * Change our code according to the name of your path and files.
+* batch_size `ex) 18`
+    * Full batch for the 512*512 image.
+* gpu_num `ex) 0`
+* type `ex) origin`
+    * Type of data transformation for the experiment.
+    * You can use other data transformations in our python code.
