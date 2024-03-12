@@ -22,6 +22,7 @@ We used Kodak, DIV2K, and CLIC datasets for our main experiments. (Section 3.1. 
 
 ### Setup
 
+<br>
 To run a single SIREN experiment, execute the following command:
 
 ```
