@@ -8,7 +8,7 @@ Pohang University of Science and Technology (POSTECH)
 
 <br>
 
-This is the official Github page for the paper "In Search of a Data Transformation That Accelerates Neural Field Training"(CVPR 2023).
+This is the official Github page for the paper "In Search of a Data Transformation That Accelerates Neural Field Training" (CVPR 2023).
 
 <br>
 
@@ -16,13 +16,13 @@ This is the official Github page for the paper "In Search of a Data Transformati
 
 Our experiments on SIREN are based on the official code for the paper ["Implicit Neural Representations with Periodic Activation Functions"](https://github.com/vsitzmann/siren).<br>
 
-This repository does not contain any image dataset used in the manuscript.<br>
-We used Kodak, DIV2K, CLIC for our main experiments. (Section 3.1. in our paper for details)
+This repository does not contain any image datasets used in the manuscript.<br>
+We used Kodak, DIV2K, and CLIC datasets for our main experiments. (Section 3.1. in our paper for details)
 <br>
 
 ### Setup
 
-A single SIREN experiment can be implemented with
+To run a single SIREN experiment, execute the following command:
 
 ```
 $ cd SIREN
@@ -31,7 +31,7 @@ $ python siren_DT.py --experiment_name= --lr= --sidelength= --num_workers= --pro
 ```
 <br>
 
-Whole experiments for the Kodak dataset can be implemented with
+To run all experiments for the Kodak datset, use the following script:
 
 ```
 $ cd SIREN
@@ -39,7 +39,7 @@ $ sh run_siren.sh
 ```
 <br>
 
-Description for the flags in the command line. <br><br>
+Description of the command line flags: <br><br>
 
 * `experiment_name` (e.g., 1)
     * Specifies the number of the image for the experiment.
@@ -68,6 +68,6 @@ Description for the flags in the command line. <br><br>
 
 ### Loss Landscape
 
-All loss landscapes in our paper can be shown in the [Demo](https://huggingface.co/spaces/lyunm1206/Interactive_Loss_Landscapes) with 3D interactive versions.<br>
+All loss landscapes in our paper can be visualized in the [Demo](https://huggingface.co/spaces/lyunm1206/Interactive_Loss_Landscapes) with 3D interactive versions.<br>
 <br>
-![pipeline](./assets/demo.png)
+![Demo](./assets/demo.png){:width="300px"}
