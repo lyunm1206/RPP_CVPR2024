@@ -70,4 +70,4 @@ Description of the command line flags: <br><br>
 
 All loss landscapes in our paper can be visualized in the [Demo](https://huggingface.co/spaces/lyunm1206/Interactive_Loss_Landscapes) with 3D interactive versions.<br>
 <br>
-![Demo](./assets/demo.png){:width="300px"}
+![Demo](./assets/demo.png){:width=10px}
