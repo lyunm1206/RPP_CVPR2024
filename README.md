@@ -17,7 +17,7 @@ This is the official Github page for the paper "In Search of a Data Transformati
 Our experiments on SIREN are based on the official code for the paper ["Implicit Neural Representations with Periodic Activation Functions"](https://github.com/vsitzmann/siren).<br>
 
 This repository does not contain any image datasets used in the manuscript.<br>
-We used Kodak, DIV2K, and CLIC datasets for our main experiments. (Section 3.1. in our paper for details)
+We used [Kodak](https://r0k.us/graphics/kodak/), [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/), and CLIC datasets for our main experiments. (Section 3.1. in our paper for details)
 <br><br>
 
 ### Setup
