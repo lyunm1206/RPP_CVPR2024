@@ -72,3 +72,14 @@ Description of the command line flags: <br><br>
 All loss landscapes in our paper can be visualized in the [Demo](https://huggingface.co/spaces/lyunm1206/Interactive_Loss_Landscapes) with 3D interactive versions.<br>
 <br>
 ![Demo](./assets/demo.png)
+
+## Citation
+
+```
+@inproceedings{RPP,
+author = {Junwon Seo and Sangyoon Lee and Kwang In Kim and Jaeho Lee},
+title = {In Search of a Data Transformation That Accelerates Neural Field Training},
+year = {2024},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}
+}
+```
