@@ -18,11 +18,10 @@ Our experiments on SIREN are based on the official code for the paper ["Implicit
 
 This repository does not contain any image datasets used in the manuscript.<br>
 We used Kodak, DIV2K, and CLIC datasets for our main experiments. (Section 3.1. in our paper for details)
-<br>
+<br><br>
 
 ### Setup
 
-<br>
 To run a single SIREN experiment, execute the following command:
 
 ```
@@ -38,8 +37,8 @@ To run all experiments for the Kodak datset, use the following script:
 $ cd SIREN
 $ sh run_siren.sh
 ```
-<br>
-Descriptions for the command line flags are in `/SIREN/README.md`. 
+
+Descriptions of the command line flags are in `/SIREN/README.md`. 
 <br>
 
 ## Loss Landscape
