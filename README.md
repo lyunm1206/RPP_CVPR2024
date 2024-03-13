@@ -8,7 +8,7 @@ Pohang University of Science and Technology (POSTECH)
 
 <br>
 
-This is the official Github page for the paper "In Search of a Data Transformation That Accelerates Neural Field Training" (CVPR 2023).
+This is the official Github page for the paper "In Search of a Data Transformation That Accelerates Neural Field Training" (CVPR 2024).
 
 <br>
 
@@ -27,8 +27,8 @@ To run a single SIREN experiment, execute the following command:
 
 ```
 $ cd SIREN
-$ python siren_DT.py --experiment_name= --lr= --sidelength= --num_workers= --project= \
---max_steps= --directory= --batch_size= --gpu_num= --type=
+### example code
+$ python siren_DT.py --experiment_name=1 --lr=-10 --sidelength=512 --num_workers=16 --project=SIREN --max_steps=10000 --directory=kodak_ori --batch_size=18 --gpu_num=0 --type=origin
 ```
 <br>
 
