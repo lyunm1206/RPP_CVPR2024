@@ -38,9 +38,11 @@ To run all experiments for the Kodak datset, use the following script:
 $ cd SIREN
 $ sh run_siren.sh
 ```
-<br><br>
+<br>
+Descriptions for the command line flags are in `/SIREN/README.md`. 
+<br>
 
-### Loss Landscape
+## Loss Landscape
 
 All loss landscapes in our paper can be visualized in the [Demo](https://huggingface.co/spaces/lyunm1206/Interactive_Loss_Landscapes) with 3D interactive versions.<br>
 <br>
